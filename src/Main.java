@@ -12,11 +12,9 @@ public class Main {
 
     public static void greet(){
         System.out.println("HELLO,WORLD");
-        return;
     }
-    public static String greet(String name){
+    public static void greet(String name){
         System.out.println("Hello "+name);
-        return name;
     }
 
 
