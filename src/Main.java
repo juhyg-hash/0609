@@ -1,48 +1,25 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 public class Main {
     public static void main (String[] args){
-        int[] numbers = {1,2,3,4,5};
-        int[] nums ={2,4,6,8,10};
-        int sum = 0;
+        String message = "Hello Java!";
 
-        for(int j = 0 ;j < nums.length; j++){
-            sum += nums[j];
+        System.out.println(message.length());
+
+        //대문자 변환
+        System.out.println(message.toUpperCase());
+
+        //소문자 변환
+        System.out.println(message.toLowerCase());
+
+        System.out.println(message.indexOf("a"));
+
+        for(int i = 0; i< message.length(); i++){
+
+            if(message.charAt(i) == 'a'){
+                System.out.println(message.charAt(i));
+                break;
+            }
+
         }
-        System.out.println(sum);
-
-
-
-        System.out.println(numbers[0]);
-        System.out.println(numbers[1]);
-        System.out.println(numbers[2]);
-        System.out.println(numbers[3]);
-        System.out.println(numbers[4]);
-
-
-
-
-
-        for(int i = 0; i < numbers.length ; i++) {
-            System.out.println(numbers[i]);
-        }
-//        for(int i= 0; i<6; i++){
-//            System.out.println(numbers[i]);
-//        }
-        //주로 이구조로 사용
-        //내리차림으로 해보기
-        for(int i = numbers.length-1; i >= 0; i--){
-            System.out.println(numbers[i]);
-        }
-        for(int i = 0;i < numbers.length; i++){
-            System.out.println(numbers[numbers.length -1 -i]);
-        }
-
-//        System.out.println(Arrays.toString(numbers));
-        System.out.println(numbers.length);
-
-
 
     }
 }
