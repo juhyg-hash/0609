@@ -24,6 +24,9 @@ public class Main {
         for(int i = numbers.length-1; i >= 0; i--){
             System.out.println(numbers[i]);
         }
+        for(int i = 0;i < numbers.length; i++){
+            System.out.println(numbers[numbers.length -1 -i]);
+        }
 
 //        System.out.println(Arrays.toString(numbers));
         System.out.println(numbers.length);
