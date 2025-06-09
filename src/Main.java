@@ -4,6 +4,14 @@ import java.util.Arrays;
 public class Main {
     public static void main (String[] args){
         int[] numbers = {1,2,3,4,5};
+        int[] nums ={2,4,6,8,10};
+        int sum = 0;
+
+        for(int j = 0 ;j < nums.length; j++){
+            sum += nums[j];
+        }
+        System.out.println(sum);
+
 
 
         System.out.println(numbers[0]);
@@ -19,6 +27,9 @@ public class Main {
         for(int i = 0; i < numbers.length ; i++) {
             System.out.println(numbers[i]);
         }
+//        for(int i= 0; i<6; i++){
+//            System.out.println(numbers[i]);
+//        }
         //주로 이구조로 사용
         //내리차림으로 해보기
         for(int i = numbers.length-1; i >= 0; i--){
