@@ -19,8 +19,14 @@ public class Main {
         for(int i = 0; i < numbers.length ; i++) {
             System.out.println(numbers[i]);
         }
+        //주로 이구조로 사용
+        //내리차림으로 해보기
+        for(int i = numbers.length-1; i >= 0; i--){
+            System.out.println(numbers[i]);
+        }
 
 //        System.out.println(Arrays.toString(numbers));
+        System.out.println(numbers.length);
 
 
 

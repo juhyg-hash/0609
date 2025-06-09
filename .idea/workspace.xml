@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7018226a-07da-417b-b6b2-35e830f38722" name="변경" comment="second_1 commit">
+    <list default="true" id="7018226a-07da-417b-b6b2-35e830f38722" name="변경" comment="third_1 commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -79,13 +79,31 @@
       <option name="project" value="LOCAL" />
       <updated>1749432669448</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="third commit">
+      <option name="closed" value="true" />
+      <created>1749435490564</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749435490564</updated>
+    </task>
+    <task id="LOCAL-00005" summary="third_1 commit">
+      <option name="closed" value="true" />
+      <created>1749436036282</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1749436036282</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
     <MESSAGE value="second_1 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second_1 commit" />
+    <MESSAGE value="third commit" />
+    <MESSAGE value="third_1 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="third_1 commit" />
   </component>
 </project>
