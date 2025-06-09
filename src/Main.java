@@ -1,28 +1,25 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Main {
-    public static int add(int a, int b) {
-        return a + b;
-    }
-
-    public static int add(int a, int b, int c) {
-        return a + b + c;
-    }
-    public static double add(double a, double b) {
-        return a + b;
-    }
-
-    public static void greet(){
-        System.out.println("HELLO,WORLD");
-    }
-    public static void greet(String name){
-        System.out.println("Hello "+name);
-    }
+    public static void main (String[] args){
+        int[] numbers = {1,2,3,4,5};
 
 
-    public static void main(String[] args) {
+        System.out.println(numbers[0]);
+        System.out.println(numbers[1]);
+        System.out.println(numbers[2]);
+        System.out.println(numbers[3]);
+        System.out.println(numbers[4]);
 
-        greet();
-        greet("Alice");
 
 
+
+
+        for(int i = 0; i <5 ; i++) {
+            System.out.println(numbers[i]);
+        }
+
+//        System.out.println(Arrays.toString(numbers));
     }
 }
