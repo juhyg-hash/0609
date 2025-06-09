@@ -10,9 +10,21 @@ public class Main {
         return a + b;
     }
 
+    public static void greet(){
+        System.out.println("HELLO,WORLD");
+        return;
+    }
+    public static String greet(String name){
+        System.out.println("Hello "+name);
+        return name;
+    }
+
+
     public static void main(String[] args) {
-        System.out.println("a + b = " + add(1, 2));
-        System.out.println("a + b + c = " + add(3, 4, 5));
-        System.out.println("a + b = " + add(1.6, 2.4));
+
+        greet();
+        greet("Alice");
+
+
     }
 }
